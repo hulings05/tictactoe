@@ -1,13 +1,38 @@
-body {
+/* Reset default styles */
+body, html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Set global font styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set container styles */
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Set app container styles */
+.app-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* Set global button styles */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Set global button hover effect */
+button:hover {
+  opacity: 0.8;
 }
